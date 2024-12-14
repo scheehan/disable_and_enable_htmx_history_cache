@@ -1,6 +1,6 @@
 [![image](/images/howtounloadhtmxhistory.png)](https://youtu.be/Tc64QmkXpqo)
 
-# Seamlessly unload/remove htmx cache history
+# [Seamlessly unload/remove htmx cache history][8]
 
 A web page serves for internet public access and authenticated users, often time offer some type of browser cache to improve user experience.  
 
@@ -109,3 +109,4 @@ flask run --debug
 [5]: https://htmx.org/attributes/hx-push-url/
 [6]: https://htmx.org/attributes/hx-boost/
 [7]: https://developer.mozilla.org/en-US/docs/Web/API/Storage/removeItem
+[8]: https://youtu.be/Tc64QmkXpqo

@@ -95,7 +95,7 @@ git clone https://github.com/scheehan/disable_and_enable_htmx_history_cache.git
 ```
 
 ```python
-cd http_auth_error_handling_with_htmx
+cd disable_and_enable_htmx_history_cache
 
 pip install -r requirements.txt
 ```

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="/static/login.css">
+    <script src="{{ url_for('static', filename='js/htmx.min.js') }}"></script>
+
+    <script>
+        function CacheDeleteItemHTMX() {
+        window.localStorage.removeItem("htmx-history-cache");
+      }
+    </script>
+</head>
+<body>
+
+    <div id="msg_container">
+    <p>HELLO</p>
+    <p>You logged in as {{ username }}</p>
+
+    <img src="{{ url_for('static', filename='myimages/iss064e041512-medium.jpg') }}" alt="NASA" width="500" height="600">
+    
+    <br>
+    
+    <article>
+        there are no shortcuts to excellence. Developing real expertise, figuring out really hard problems, 
+        it all takes time―longer than most people imagine....
+        you've got to apply those skills and produce goods or services that are valuable to people....
+        Grit is about working on something you care about so much that you're willing to stay loyal to it...
+        it's doing what you love, but not just falling in love―staying in love.”
+    </article>
+    <br>
+    <div>
+    <a href="/articles/565678" hx-boost="true">article 565678</a>
+    <br>
+    <a href="/articles/565679" hx-boost="true">article 565679</a>
+    <br>
+    <a hx-get="/articles/565680" hx-push-url="true" hx-target="#mquote">quote</a>
+    <br>
+    </div>
+    <br>
+    <a href="/logout" onclick="CacheDeleteItemHTMX()">Logout</a>
+    <br>
+    <div id="mquote">
+    </div>
+    
+    </div>
+
+
+
+</body>
+</html>

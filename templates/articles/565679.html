@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/static/login.css">
+    <script src="{{ url_for('static', filename='js/htmx.min.js') }}"></script>
+        
+
+</head>
+<body>
+    <h1>-- IF --</h1>
+    <article>
+        <article>
+            A trusting little leaf of green,
+            A bold audacious frost;
+            A rendezvous, a kiss or two,
+            And youth for ever lost.
+            Ah, me!
+            The bitter, bitter cost.
+    </article>
+
+    <article>
+        --- sensitive info ---
+        A flaunting patch of vivid red,
+        That quivers in the sun;
+        A windy gust, a grave of dust,
+        The little race is run.
+        Ah, me!
+        Were that the only one.
+    </article>
+        <br>
+        <a href="/articles/565678" hx-boost="true">article 565678</a>
+        <br>
+        <a href="/" hx-boost="true">main page</a>
+
+    </article>
+</body>
+</html>

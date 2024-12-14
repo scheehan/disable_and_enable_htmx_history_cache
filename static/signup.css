@@ -1,0 +1,42 @@
+body {
+    background-color: #36393f;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+h1 {
+    color: #7289da;
+}
+form {
+    max-width: 300px;
+    margin: auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #40444b;
+    color: #fff;
+    border: 1px solid #7289da;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #7289da;
+    color: #fff;
+    cursor: pointer;
+}
+a {
+    color: #7289da;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin-bottom: 5px;
+}

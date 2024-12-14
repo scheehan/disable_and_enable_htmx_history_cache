@@ -87,7 +87,6 @@ succesfully deleted batman
 By applying these 3 htmx attributes allow to take adventage of htmx-hisroty-cache feature enhance your web app user experience.
 Furthermore, having a option to unload/remove htmx caching feature while user logout or back button.
 
-
 ## Install & run web app
 
 ```python
